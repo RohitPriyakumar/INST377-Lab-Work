@@ -3,3 +3,58 @@
     - The styles in this folder's `style.css`
     - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata goes here -->
+    <link rel='stylesheet' href='style.css'/>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div class="header"><h1>Rohit's Labs For INST377! </h1></header>
+
+    <div class="container">
+
+    <div class="left_section box">
+      <h2> Album Names</h2>
+    
+      <div class="box">
+        <ol>
+          <li>Can't Stop It - Yeat</li>
+          <li>Talk - Yeat</li>
+          <li>Picture In My Mind - Pink Pantheress</li>
+          <li>One More Hour - Tam Impala</li>
+          <li>After Hours - The Weeknd</li>
+        </ol>
+      </div>
+    </div>
+    
+    <div class="right_section box">
+      <h2>Image Carousel</h2>
+
+      <div class="carousel">
+          <button class="prev">prev</button>
+          <div class="slides">
+            <div class="carousel_item visible"><img id="slide_1" src='images/jpgTest.jpg'  alt='tiger'/></div>
+            <div class="carousel_item hidden"><img id="slide_2" src='images/cat.gif'  alt='dancing cat'/></div>
+            <div class="carousel_item hidden"><img id="slide_3" src='images/plant.png'  alt='plant'/></div>
+            <div class="carousel_item hidden"><img id="slide_4" src='images/lollipop.svg'  alt='lollipop'/></div>
+          </div>
+          <button class="next">next</button>
+      </div>
+
+      <div class="box">
+        <ol>tiger jpg (top left), dancing cat gif (top right), plant png (bottom left), lollipop svg (bottom right)</ol>
+      </div>
+    </div>
+
+    </div>
+
+    <footer class="footer"><p>https://github.com/RohitPriyakumar/INST377-Lab-Work</p></footer>
+
+    </div>
+
+    <script src="script.js" ></script>
+  </body>
+</html>
